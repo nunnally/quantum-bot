@@ -1,0 +1,221 @@
+﻿  CObject.cpp
+c:\users\gray\desktop\lol base\lol base\utils.h(27): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'int *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\utils.h(28): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\utils.h(28): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'char *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\utils.h(30): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'char *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(21): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(21): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(21): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'short *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(25): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(25): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(25): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'short *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(29): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(29): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(29): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'short *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(33): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(33): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(33): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(37): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(37): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(37): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Vector *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(41): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(41): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(41): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'int *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(45): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(45): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(45): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(49): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(49): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(49): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(53): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(53): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(53): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(61): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(61): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(61): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(65): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(65): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(65): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(69): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(69): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(69): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(73): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(73): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(73): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'bool *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(92): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(92): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(96): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(96): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(100): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(100): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(100): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'int *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(13): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(13): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(14): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(16): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(19): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(20): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(21): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(27): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(27): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(27): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'char *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(31): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(31): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(31): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(35): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(35): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(35): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(39): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'CObject *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\utils.h(23): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Function' de tamanho maior
+          with
+          [
+              Function=OriginalFn
+          ]
+  c:\users\gray\desktop\lol base\lol base\cobject.h(78): note: consulte a referência à instanciação da função modelo 'Function CallVirtual<OriginalFn>(PVOID,DWORD)' que está sendo compilada
+          with
+          [
+              Function=OriginalFn
+          ]
+  guicon.cpp
+c:\users\gray\desktop\lol base\lol base\guicon.cpp(26): warning C4838: a conversão de 'int' em 'SHORT' requer uma conversão de restrição
+c:\users\gray\desktop\lol base\lol base\guicon.cpp(29): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: consulte a declaração de 'fopen'
+c:\users\gray\desktop\lol base\lol base\guicon.cpp(42): warning C4267: 'argumento': conversão de 'size_t' para 'DWORD', possível perda de dados
+c:\users\gray\desktop\lol base\lol base\guicon.cpp(38): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1469): note: consulte a declaração de 'vsprintf'
+  LoL base.cpp
+  stdafx.cpp
+  Gerando Código...
+  dllmain.cpp
+c:\users\gray\desktop\lol base\lol base\utils.h(27): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'int *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\utils.h(28): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\utils.h(28): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'char *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\utils.h(30): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'char *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(21): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(21): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(21): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'short *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(25): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(25): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(25): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'short *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(29): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(29): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(29): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'short *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(33): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(33): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(33): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(37): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(37): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(37): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Vector *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(41): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(41): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(41): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'int *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(45): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(45): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(45): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(49): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(49): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(49): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(53): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(53): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(53): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(61): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(61): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(61): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(65): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(65): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(65): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(69): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(69): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(69): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(73): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(73): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(73): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'bool *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\cobject.h(92): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(92): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(96): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(96): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(100): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(100): warning C4302: 'conversão de tipo': truncamento de 'CObject *' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\cobject.h(100): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'int *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(13): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(13): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(14): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(16): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(19): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(20): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(21): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(27): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(27): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(27): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'char *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(31): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(31): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(31): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'float *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(35): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(35): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\engine.h(35): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\engine.h(39): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'CObject *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(57): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(57): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(60): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'WORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(61): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'WORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(62): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'WORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(73): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(83): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(83): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(83): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'CObjectManager *' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(85): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(85): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(85): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnPrintChat' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(86): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(86): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(86): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnIsTargetable' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(87): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(87): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(87): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnIsAlive' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(89): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(89): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(89): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnIsMinion' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(90): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(90): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(90): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnIsTurret' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(91): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(91): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(91): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnIsHero' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(92): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(92): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(92): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnIsMissile' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(93): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(93): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(93): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnIsNexus' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(94): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(94): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(94): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnIsInhibitor' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(95): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(95): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(95): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnIsTroyEnt' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(98): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(98): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(98): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnIssueOrder' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(99): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(99): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(99): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnDrawCircle' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(101): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(101): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(101): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnGetAttackCastDelay' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(102): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(102): warning C4302: 'conversão de tipo': truncamento de 'HMODULE' para 'DWORD'
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(102): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Typedefs::fnGetAttackDelay' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\dllmain.cpp(104): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'PBYTE' de tamanho maior
+c:\users\gray\desktop\lol base\lol base\utils.h(23): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'Function' de tamanho maior
+          with
+          [
+              Function=OriginalFn
+          ]
+  c:\users\gray\desktop\lol base\lol base\cobject.h(78): note: consulte a referência à instanciação da função modelo 'Function CallVirtual<OriginalFn>(PVOID,DWORD)' que está sendo compilada
+          with
+          [
+              Function=OriginalFn
+          ]
+dllmain.obj : error LNK2019: símbolo externo indefinido DetourFunction referenciado na função "void __cdecl Start(void)" (?Start@@YAXXZ)
+detours.lib : warning LNK4272: o tipo de máquina da biblioteca 'x86' está em conflito com o tipo de máquina de destino 'x64'
+C:\Users\gray\Desktop\LoL base\x64\Debug\LoL base.dll : fatal error LNK1120: 1 externo não resolvidos

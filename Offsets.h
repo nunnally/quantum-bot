@@ -1,0 +1,69 @@
+#pragma once
+#define TARGET_GAMEVERSION "Version 9.4.264.1140 [PUBLIC]"
+
+#define oPrintChat 0x5DA690
+#define oDrawCircle 0x598C00
+#define oBaseDrawPosition 0x1B2DA0
+#define oWorldToScreen 0x7D3E20
+#define oUnderMouseObject 0x22D4B84
+#define oIsAlive 0x1E08C0
+#define oIsInhib 0x224B50
+#define oIsNexus 0x224C50
+#define oIsTroy 0x224F90
+#define oIsTurret 0x224EA0
+#define oIsBaron 0x214630
+#define oIsDragon 0x213900
+#define oIsMinion 0x224D10
+#define oIsHero 0x224CD0
+#define oIsMissile 0x224D30
+#define oIsTargetable 0x21DB90
+#define oIssueOrder 0x1BC3D0
+#define oGetAttackDelay 0x5A8CD0
+#define oGetAttackCastDelay 0x5A8BF0
+#define oGetBasicAttack 0x1B1D30
+#define oGetSpellState 0x596370
+#define oCastSpell 0x5A1DC0
+#define oUpdateChargeableSpell 0x5A47A0
+#define oChatClientPtr 0x1681D6C
+#define oLocalPlayer 0x2F2F4F8
+#define oObjManager 0x2F2EF60
+#define oHudInstance 0x16843C8
+#define oRenderer 0x2F4BFB4
+#define oZoomClass 0x2F2B414
+#define oGameTime 0x2F2B5F0
+#define oGameVersion 0x2F39620
+
+#define oObjIndex 0x20
+#define oObjTeam 0x4C
+#define oObjName 0x88
+#define oObjNetworkID 0x110
+#define oObjSourceIndex 0x2CC
+#define oObjPos 0x260
+#define oObjTargetID 0x318
+#define oObjVisibility 0x420
+#define oObjHealth 0xF7C
+#define oObjMaxHealth 0xF8C
+#define oObjMana 0x044C
+#define oObjMaxMana 0x45C
+#define oObjArmor 0x1448
+#define oObjBaseAtk 0x1420
+#define oObjBonusAtk 0x13A0
+#define oObjBaseMagic 0x1450
+#define oObjBonusMagic 0x1454
+#define oObjMoveSpeed 0x1460
+#define oObjAtkRange 0x1468
+#define oObjCombatType 0x21C4
+#define oObjBuffMgr 0x22A0
+#define oObjSpellBook 0x2A88
+#define oObjChampionName 0x24F0
+#define oObjLevel 0x4B2C
+#define oObjSpellStartPos 0x2E4
+#define oObjSpellEndPos 0x2F0
+
+#define O_AIMGR_TARGETPOS 0x10
+#define O_AIMGR_ISMOVING 0x198
+#define O_AIMGR_ISDASHING 0x1E8
+
+#define oBuffName 0x8
+#define oFlBuffCount 0x2C
+#define oIntBuffCount 0x70
