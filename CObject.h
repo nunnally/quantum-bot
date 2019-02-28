@@ -16,6 +16,8 @@ public:
 	bool IsInhibitor();
 	bool IsTroyEnt();
 	bool IsTargetable();
+	float GetAttackDelay();
+	float GetAttackCastDelay();
 
 	short GetIndex() {
 		return *(short*)((DWORD)this + oObjIndex);
@@ -45,10 +47,6 @@ public:
 		return *(float*)((DWORD)this + oObjHealth);
 	}
 
-	float getArra
-	float CObject::GetAttackDelay() {
-		return (1 / Functions.GetAttackDelay(this));
-	}
 
 	float GetBaseAttackDamage() {
 		return *(float*)((DWORD)this + oObjBaseAtk);

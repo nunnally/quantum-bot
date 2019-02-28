@@ -1,2 +1,2 @@
-﻿  CObject.cpp
-c:\users\gray\desktop\lol base\lol base\cobject.h(48): error C2065: 'Functions': identificador não declarado
+﻿  dllmain.cpp
+  LoL base.vcxproj -> C:\Users\gray\Desktop\LoL base\Debug\LoL base.dll

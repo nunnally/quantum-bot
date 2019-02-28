@@ -18,7 +18,14 @@ bool bInit = false;
 typedef HRESULT(WINAPI *Prototype_Present)(DWORD, CONST RECT*, CONST RECT*, HWND, CONST RGNDATA*);
 Prototype_Present Original_Present;
 
-DWORD LastAATick = 0;
+
+
+float CObject::GetAttackDelay() {
+	return (1 / Functions.GetAttackDelay(this));
+}
+float CObject::GetAttackCastDelay() {
+	return (Functions.GetAttackCastDelay(this) * 2.0f);
+}
 
 bool CanAttack()
 {
@@ -27,6 +34,49 @@ bool CanAttack()
 		return true;
 	}
 	return false;
+}
+bool CanMove(float extraWindup, bool disableMissileCheck = false)
+{
+	float localExtraWindup = 0;
+	if (GetTickCount() + 100 / 2
+		>= LastAATick + me->GetAttackCastDelay() * 1000 + extraWindup + localExtraWindup)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+
+// NÃO TENHO CERTEZA SE AINDA FUNCIONA LOL
+//É, SEEMS LIKE WORKS PORRA
+
+float GetDistance(CObject* target, CObject* target2)
+{
+	return target->GetPos().DistTo(target2->GetPos());
+
+}
+
+VOID HeroHandler(CObject * Hero) {
+	if (Hero->IsAlive() && Hero->IsVisible() && Hero->IsTargetable() && Hero->GetTeam() != me->GetTeam()) {
+		if (GetAsyncKeyState(VK_SPACE)) {
+			if (GetDistance(Hero, me) < me->GetAttackRange() && CanAttack()) {
+				LastAATick = GetTickCount();
+				Functions.PrintChat(*(DWORD*)(baseAddr + oChatClientPtr), "<font color='#40c1ff'>[Cast de AA iniciado]</font><font color='#C1FFAF'> Loaded...</font>", 1);				
+				Engine::AttackTarget(Hero);
+				Functions.PrintChat(*(DWORD*)(baseAddr + oChatClientPtr), "<font color='#C1FFAF'>[Cast de AA finalizado]</font>", 1);
+
+			}
+			else if (CanMove(20))
+			//else
+			{
+				//Functions.PrintChat(*(DWORD*)(baseAddr + oChatClientPtr), "<font color='#C1FFAF'>[AA em delay, WALK!]</font>", 1);
+				Engine::MoveTo(&Engine::GetMouseWorldPosition());
+			}
+		}
+	}
 }
 
 VOID teste() {
@@ -42,21 +92,31 @@ HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pD
 			bInit = true;
 		}
 
+
 		if (GetKeyState('D') & 0x8000) {
 
-			Console.print("nick: %s | Campeao: %s | HP: %f\n", me->GetName(), me->GetChampionName(), me->GetHealth());
-			teste();
+			//Console.print("nick: %s | Campeao: %s | HP: %f\n", me->GetName(), me->GetChampionName(), me->GetHealth());
+			//teste();
 
+			if (CanAttack()) {
+				LastAATick = GetTickCount();
+				Console.print("Posso atacar agora bebe\n");
+
+			}
+			else {
+				Console.print("Ataque em delay WALK!!!!\n");
+			}
 		}
 
 
 		/*so vamos andar se o farm ou o kite estiverem ativados através dos nossos hooks no processo*/
-		if (GetKeyState('X') || GetAsyncKeyState(VK_SPACE) & 0x8000)/*Check if high-order bit is set (1 << 15)*/
+		if (GetKeyState('X') & 0x8000)/*Check if high-order bit is set (1 << 15)*/
 		{
 			//Soh se estiver vivo, acaba com o problema de draws indesejados.
 			if (me->IsAlive()) {
 				auto color = createRGB(0, 255, 0);
 				Functions.DrawCircle(&me->GetPos(), me->GetAttackRange() + me->GetBoundingRadius(), &color, 0, 0.0f, 0, 0.5f);
+				
 
 				if (lastmove == NULL || clock() - lastmove > 30.0f) {
 					lastmove = clock();
@@ -95,7 +155,7 @@ HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pD
 	}*/
 
 
-	if (GetKeyState('A') & 0x8000) {
+	if (GetKeyState('S') & 0x8000) {
 
 		if (ObjManager) {
 			for (int i = 0; i < 10000; i++) {
@@ -123,6 +183,10 @@ HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pD
 			CObject* obj = Engine::GetObjectByID(i);
 			if (obj) {
 				if (obj->IsHero()) {
+
+					HeroHandler(obj);
+
+
 					if (obj->IsAlive() && obj->IsVisible() && obj->GetTeam() != me->GetTeam()) {
 						auto color = createRGB(255, 0, 0);
 						Functions.DrawCircle(&obj->GetPos(), obj->GetAttackRange() + obj->GetBoundingRadius(), &color, 0, 0.0f, 0, 0.5f); //Draw range
