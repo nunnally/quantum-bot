@@ -1,8 +1,2 @@
-.vs\*
-.vs/Quantum Bot/v15/Browse.VC.db
-.vs/Quantum Bot/v15/Browse.VC.opendb
-.vs/Quantum Bot/v15/Browse.VC.db
-.vs/Quantum Bot/v15/ipch/AutoPCH/59d3be4c70784b72/DLLMAIN.ipch
-.vs/Quantum Bot/v15/ipch/AutoPCH/59d3be4c70784b72/DLLMAIN.ipch
-.vs/Quantum Bot/v15/Browse.VC.db
-Quantum Bot/x64/Debug/Quantum Bot.log
+bin/
+.vs/
