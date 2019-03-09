@@ -5,16 +5,23 @@
 #include "Engine.h"
 #include "Hooks.h"
 #include "detours.h"
-CObjectManager* ObjManager;
-CConsole Console;
-CFunctions Functions;
-class COrbWalker
+
+namespace te {
+	class Gosu;
+
+}
+class te::Gosu
 {
+
 public:
-	COrbWalker();
-	~COrbWalker();
-	void OrbWalk(CObject * target);
-	bool CanMove();
-	bool CanAttack();
+
+	Gosu();
+	~Gosu();
+	static void OrbWalk(CObject * target);
+	static bool CanMove();
+	static bool CanAttack();
+	static float GetDistance(CObject* target, CObject* target2);
+
+
 };
 

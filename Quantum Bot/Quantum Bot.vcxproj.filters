@@ -66,6 +66,12 @@
     <ClInclude Include="Hooks.h">
       <Filter>Arquivos de Cabeçalho\Engine</Filter>
     </ClInclude>
+    <ClInclude Include="COrbWalker.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LoL base.cpp">
@@ -82,6 +88,9 @@
     </ClCompile>
     <ClCompile Include="CObject.cpp">
       <Filter>Arquivos de Origem\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="COrbWalker.cpp">
+      <Filter>Arquivos de Origem</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

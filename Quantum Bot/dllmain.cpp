@@ -3,15 +3,17 @@
 #include "stdafx.h"
 #include "guicon.h"
 #include "Engine.h"
+#include "COrbWalker.h"
 #include "Hooks.h"
 #include "detours.h"
-DWORD LastAATick = 0;
+#include "dllmain.h"
 
 #pragma comment(lib, "detours.lib")
 
 CObjectManager* ObjManager;
 CConsole Console;
 CFunctions Functions;
+DWORD LastAATick = 0;
 
 clock_t lastmove = NULL;
 bool bInit = false;
@@ -84,6 +86,8 @@ VOID HeroHandler(CObject * Hero) {
 VOID teste() {
 	Console.print("jus a test");
 }
+
+
 
 HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pDestRect, HWND hDestWindow, CONST RGNDATA *pDirtyRegion) {
 	
@@ -186,7 +190,8 @@ HRESULT WINAPI Hooked_Present(DWORD Device, CONST RECT *pSrcRect, CONST RECT *pD
 			if (obj) {
 				if (obj->IsHero()) {
 
-					HeroHandler(obj);
+					//COrbWalker::OrbWalk(obj);
+					te::Gosu::OrbWalk(obj);
 
 
 					if (obj->IsAlive() && obj->IsVisible() && obj->GetTeam() != me->GetTeam()) {
