@@ -19,10 +19,12 @@ typedef HRESULT(WINAPI *Prototype_Present)(DWORD, CONST RECT*, CONST RECT*, HWND
 Prototype_Present Original_Present;
 
 
-
+//tempo necessario ate eu poder atacar
 float CObject::GetAttackDelay() {
 	return (1 / Functions.GetAttackDelay(this));
 }
+
+//tempo necessario para andar depois de atacar
 float CObject::GetAttackCastDelay() {
 	return (Functions.GetAttackCastDelay(this) * 2.0f);
 }
